@@ -2,7 +2,13 @@
 
 <form action="login/run" method="post">
     
-    <label>Login</label><input type="text" name="login" /><br />
-    <label>Password</label><input type="password" name="password" /><br />
-    <label></label><input type="submit" />
+    <label class="label label-default">Username</label>
+    <input type="text" name="login" class="form-control" /><br />
+    <label class="label label-default">Password</label>
+    <input type="password" name="password" class="form-control" /><br />
+    <button type="submit" class="btn btn-default">
+        Login
+    </button>
+    <br>
+    <br>
 </form>

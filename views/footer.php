@@ -1,7 +1,10 @@
-</div>
+    
+        </div>
+        <div class="panel-footer">
+            (C) Such Footer
+        </div>
+    </div>
 
-<div id="footer">
-    (C) Footer
 </div>
 
 </body>
