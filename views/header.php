@@ -29,7 +29,7 @@
         <nav class="nav navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand">MVC</a>
+                    <a class="navbar-brand" href="<?php echo URL; ?>index">MVC</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">

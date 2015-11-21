@@ -4,17 +4,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Programs/Xampp/htdocs/libs/Controller.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/views/index/index.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/views/login/index.php</file>
             <file>file:/E:/Programs/Xampp/htdocs/controllers/login.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/libs/View.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/controllers/index.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/.htaccess</file>
+            <file>file:/E:/Programs/Xampp/htdocs/util/Auth.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/libs/Form.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/controllers/dashboard.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/models/login_model.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/models/user_model.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/libs/Session.php</file>
             <file>file:/E:/Programs/Xampp/htdocs/views/header.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/libs/Bootstrap.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/config.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/index.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/libs/Database.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/libs/Model.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/libs/HttpContext.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/controllers/user.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/views/footer.php</file>
         </group>
     </open-files>
 </project-private>
