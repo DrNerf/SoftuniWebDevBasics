@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title><?=(isset($this->title)) ? $this->title : 'MVC'; ?></title>
+    <title><?=(isset($this->title)) ? $this->title : 'C S'; ?></title>
 <!--    <link rel="stylesheet" href="<?php echo URL; ?>public/css/default.css" />    -->
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/sunny/jquery-ui.css" />
 <!--    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
@@ -29,7 +29,7 @@
         <nav class="nav navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="<?php echo URL; ?>index">MVC</a>
+                    <a class="navbar-brand" href="<?php echo URL; ?>index">Conference Scheduler</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
