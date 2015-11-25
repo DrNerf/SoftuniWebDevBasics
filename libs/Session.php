@@ -2,6 +2,13 @@
 
 class Session
 {
+    public function __get($name) {
+        return Session::get($name);
+    }
+    
+    public function __set($name, $value) {
+        Session::set($name, $value);
+    }
     
     public static function init()
     {

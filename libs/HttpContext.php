@@ -10,32 +10,16 @@ class HttpContext
 {
     public function __construct() 
     {
-         
+        @session_start();
+        $this->session = new Session();
+        $this->cookie = new Cookie();
     }
      
-    public function getSession($key)
-    {
-        Session::get($key);
-    }
-    
-    public function setSession($key, $value)
-    {
-        Session::set($key, $value);
-    }
-    
-    public function getCookie($coockie)
-    {
-        if(isset($_COOKIE[$cookie]))
-        {
-            return $_COOKIE[$cookie];
-        }
-    }
-    
-    public function setCookie($key, $value)
-    {
-        return setcookie($key, $value);
-    }
-    
+    public $session;
+
+    public $cookie;
+
+
     public function getUser()
     {
         return Auth::getUser();
