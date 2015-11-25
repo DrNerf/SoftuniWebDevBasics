@@ -120,13 +120,16 @@ class Bootstrap {
     private function _callControllerMethod()
     {
         $length = count($this->_url);
-        
+        $methodName = "index";
         // Make sure the method we are calling exists
         if ($length > 1) {
             if (!method_exists($this->_controller, $this->_url[1])) {
                 $this->_error();
             }
+            $methodName = $this->_url[1];
         }
+        $className = get_class($this->_controller);
+        AnnotationsParser::scan($className, $methodName);
         
         // Determine what to load
         switch ($length) {
