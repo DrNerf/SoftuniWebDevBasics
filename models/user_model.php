@@ -34,14 +34,14 @@ class User_Model extends Model
             'role' => $data['role']
         );
         
-        $this->db->update('user', $postData, "`userid` = {$data['userid']}");
+        $this->db->update('user', $postData, "`userid` = {$data['id']}");
     }
     
     public function delete($userid)
     {
         $result = $this->db->select('SELECT role FROM user WHERE userid = :userid', array(':userid' => $userid));
 
-        if ($result[0]['role'] == 'owner')
+        if ($result[0]['role'] == 'admin')
         return false;
         
         $this->db->delete('user', "userid = '$userid'");

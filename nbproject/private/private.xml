@@ -4,16 +4,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Programs/Xampp/htdocs/libs/AnnotationsParser.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/util/Auth.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/annotations/Admin.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/controllers/error.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/libs/Bootstrap.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/annotations/Authorize.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/controllers/dashboard.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/libs/Controller.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/models/user_model.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/views/user/edit.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/views/login/index.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/controllers/login.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/views/login/register.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/views/header.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/libs/Model.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/controllers/user.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/libs/HttpContext.php</file>
             <file>file:/E:/Programs/Xampp/htdocs/models/login_model.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/views/error/index.php</file>
-            <file>file:/E:/Programs/Xampp/htdocs/views/dashboard/adminsplace.php</file>
+            <file>file:/E:/Programs/Xampp/htdocs/libs/Database.php</file>
         </group>
     </open-files>
 </project-private>

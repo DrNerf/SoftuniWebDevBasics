@@ -41,7 +41,7 @@
                             <?php if (Session::get('loggedIn') == true):?>
                                 <li><a href="<?php echo URL; ?>dashboard">Dashboard</a></li>
 
-                                <?php if (Session::get('role') == 'owner'):?>
+                                <?php if (Session::get('role') == 'admin'):?>
                                 <li><a href="<?php echo URL; ?>user">Users</a></li>
                                 <?php endif; ?>
 
@@ -50,7 +50,11 @@
                                 <li><a href="<?php echo URL; ?>login">Login</a></li>
                             <?php endif; ?>
                         </li>
+                        
                     </ul>
+                    <?php if (Session::get('loggedIn') == true):?>
+                    <a><h5 class="pull-right" style="vertical-align: middle;">Hello, <?php echo Session::get('username') ?></h5></a>
+                    <?php endif; ?>
                 </div>
                    
                 
